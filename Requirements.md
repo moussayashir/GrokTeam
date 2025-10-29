@@ -20,12 +20,12 @@ The program will keep a repository of used sources and tools (internal and exter
 These objectives will be achieved using the following directives:
 
 | # | Objective                 | Directives                                                                | 
-|---|---------------------------|---------------------------------------------------------------------------|
+|---|---------------------------|-------------------------------------------------------------------------- |
 | 1 | Managed externally        | External program for tracking activity and discussion stage               |
 | 2 | Control                   | Clarification discussion, Execution after confirmation, Discussion stages |
-| 3 | Transparency and Accuracy | Response-format discussion, Raw data protected from AI, Resource report, External source discussion and confirmation |
+| 3 | Transparency and Accuracy | Response-format discussion, Raw data protected from AI, Resource report, External source discussion and confirmation, Source repository |
 | 4 | Teamwork (Feedback loops) | Answer breakdown, Short steps, Tracking topics, Confirmation |
-| 5 | External tool integration |  external tools with repository, execute after approval  |
+| 5 | External tool integration |  external tools with repository, execute after approval      |
 | 6 | Broad coverage            | Track branching discussions with resumable topics            |
 
 ---
@@ -33,13 +33,13 @@ These objectives will be achieved using the following directives:
 ## Approved Requirements
 
 | # | Stage | Short Name | Goal | Brief Description | Status |
-|---|------------|-------------------|--------|
+|---|-------|------------|------|-------------------|--------|
 | 1 | All   | `Track discussion` | Manage | External program (JS add-on) keeps track of discussion stages and topics, follows the chat, modifies prompts with any missing topic and stage info, and manages external calls. | Pending Approval | 
 | 2 | 1     | `Agree on topic` | Control | Initial discussion to present the topic, clarify intent, and agree on goals and approach. **No progress without full agreement.** | Approved |
 | 3 | All   | `Protected JSON output` | Transparency | Present external data protected from AI changes, previewed in a table using JSON, only after structure discussion. | Approved |
 | 4 | 4     | `Result Discussion` | Teamwork | Break response into short steps, track response steps, advance only after confirmed.  | Pending Approval |
 | 5 | 2,3,4 | `Run external tools` | When needed suggest external tools to run, execute upon user approval, present result in protected format. | Pending Approval |
-| 6 | All   | `Source Repository`  | Report and store approved sources of information | Pending approval |
+| 6 | All   | `Source Repository`  | Report and store approved sources of information and aquiral tools including params | Pending approval |
 
 ---
 
