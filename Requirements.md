@@ -2,22 +2,28 @@
 **GitHub Repository:** `https://github.com/moussayashir/Grokteam`  
 **Author:** Moussa Yashir (moussayashir)  
 **Version:** v1.0 Initial requirements. With Moshe's revisions. To be compared with Grok's coming revision.  
-**Goal:** Transform Grok from an automatic answer engine into an active participant in a human-AI team —   
-managed externally with control, transparency, feedback loops, external tool integration, and broad coverage.
 
-Throughout each discussion, the AI responses will always be oriented to teamwork with a human, in a natural discussive way (short tracked responses and confirmation).
+## Goal
+Transform Grok from an automatic answer engine into an active participant in a human-AI team.
 
-The overall discussion and its branches will be followed by the Grokteam software, tracking topics discussed and planned to be discussed. 
+## Objectives
+Grokteam will be achieved by creating software external to Grok AI, that manages the interaction with Grok and has the following objectives: **control, transparency and accuracy, feedback loops, external tool integration, and broad coverage**.
 
-Each discussion will have the following stages:     
-1. Intent - Discussion to determine the current team's project subject, main objective, and goals.
-2. Execution plan - Discussion to determine how these goals will be achieved.
-3. Execution - Discussion by which the plan will be executed in consecutive confirmed steps.
-4. Presentation - Presenting and discussing the results. 
+## General requirements
+1. **Teamwork oriented discussions:** Throughout each discussion, the AI responses will always be oriented to teamwork with a human, in a natural discussive way (short tracked responses and confirmation).
 
-The program will keep a repository of used sources and tools (internal and external) per subject of discussion. 
+2. **Branch and topic tracking:** The overall discussion and its branches will be followed by the Grokteam software, tracking topics discussed and planned to be discussed. 
 
-These objectives will be achieved using the following directives:
+3. **Discussion stages:**: Each discussion will have the following stages:     
+3.1 Intent - Discussion to determine the current team's project subject, main objective, and goals.  
+3.2 Execution plan - Discussion to determine how these goals will be achieved.  
+3.3 Execution - Discussion by which the plan will be executed in consecutive confirmed steps.  
+3.4 Presentation - Presenting and discussing the results.  
+
+4. **Aquiral repository:** The program will keep a repository of used sources and tools (internal and external) per subject of discussion. 
+
+## Directives
+The goal objectives will be achieved using the following directives:
 
 | # | Objective                 | Directives                                                                | 
 |---|---------------------------|-------------------------------------------------------------------------- |
@@ -42,6 +48,8 @@ These objectives will be achieved using the following directives:
 | 6 | All   | `Source Repository`  | Report and store approved sources of information and aquiral tools including params | Pending approval |
 
 ---
+
+// Todo:  Update next sections according to the text above
 
 ### Requirement #1 – `agree on topic`
 
