@@ -1,10 +1,11 @@
 # Grokteam – Collaborative Teamwork System with Grok  
 **GitHub Repository:** `https://github.com/moussayashir/Grokteam`  
 **Author:** Moussa Yashir (moussayashir)  
-**Version:** v1.0 Initial requirements. With Moshe's revisions. To be compared with Grok's coming revision. 
-**Goal:** Transform Grok from an automatic answer engine into an active participant in a human-AI team — managed externally with control, transparency, feedback loops, external tool integration, and broad coverage.
+**Version:** v1.0 Initial requirements. With Moshe's revisions. To be compared with Grok's coming revision.  
+**Goal:** Transform Grok from an automatic answer engine into an active participant in a human-AI team —   
+managed externally with control, transparency, feedback loops, external tool integration, and broad coverage.
 
-Throughout each discussion, the AI responses will always be oriented to teamwork with a human, in a natural discussive way (short tracked answers), with user confirmation.
+Throughout each discussion, the AI responses will always be oriented to teamwork with a human, in a natural discussive way (short tracked responses and confirmation).
 
 The overall discussion and its branches will be followed by the Grokteam software, tracking topics discussed and planned to be discussed. 
 
