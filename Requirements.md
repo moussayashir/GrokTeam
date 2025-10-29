@@ -21,7 +21,7 @@ These objectives will be achieved using the following directives:
 
 | # | Objective                 | Directives                                                                | 
 |---|---------------------------|---------------------------------------------------------------------------|
-| 1 | Managed externally        | Track discussion stages and activity in external program  |
+| 1 | Managed externally        | External program for tracking activity and discussion stage               |
 | 2 | Control                   | Clarification discussion, Execution after confirmation, Discussion stages |
 | 3 | Transparency and Accuracy | Response-format discussion, Raw data protected from AI, Resource report, External source discussion and confirmation |
 | 4 | Teamwork (Feedback loops) | Answer breakdown, Short steps, Tracking topics, Confirmation |
