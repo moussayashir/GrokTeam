@@ -6,13 +6,18 @@
 ## Goal
 Transform Grok from an automatic answer engine into an active participant in a human-AI team.
 
-## Objectives
-Grokteam will be achieved by creating software external to Grok AI, that manages the interaction with Grok and has the following objectives: **control, transparency and accuracy, feedback loops, external tool integration, and broad coverage**.
+## Objectives  
+The Grokteam goals will be achieved by the following objectives: **tight user control, transparency and accuracy, feedback loops, external tool integration, and broad coverage**.  
+
+In the future we plan to add **tracked branching discussions** and **off-AI analysis**.  
 
 ## General Instructions
 1. **Teamwork oriented discussions:** Throughout each discussion, the AI responses will always be oriented to teamwork with a human, in a natural discussive way (short tracked responses and confirmation).
 
-2. **Branch and topic tracking:** The overall discussion and its branches will be followed by the Grokteam software, tracking topics discussed and planned to be discussed.
+2. **Discussion-stage and topic tracking:** The overall discussion and its stages will be followed by the Grokteam software, tracking **discussion stages** and **topics** discussed and planned to be discussed with the following states: `{planned, current, completed, skipped, done}`.
+
+   **Future feature: Discussion Branches**  
+   Branch tracking will be added in the future. This includes **identifying** conversation branches, noticing when the conversation goes off topic or into side tracks. A view of the discussion tree with its branches and states will be available in the Grokteam UI and stored in the Grokteam repositories.
 
 3. **Discussion stages:**
    - **Stage I** – Initial discussion stage.
@@ -20,20 +25,19 @@ Grokteam will be achieved by creating software external to Grok AI, that manages
    - **Stage III** – Execution stage.
    - **Stage IV** – Presentation stage.
 
-4. **Aquiral repository:** The program will keep a repository of used sources and tools (internal and external) per subject of discussion.
+4. **Acquisition repository:** The program will keep a repository of used sources and tools (internal and external) per subject of discussion.
 
-5. **Confirm-Gated Discussion** – **Short Name:** `confirm-gated discussion`  
-   - Discussion that **proceeds only after explicit user confirmation**.  
-   - **Rule:** Everywhere "discussion" appears in requirements, it **implies** `confirm-gated discussion`.  
-   - No action taken without **separate previous consent**.  
-   - **Emphasize** for high-impact (tool execution, storage, text changes).
+5. **Confirm-Gated Discussion:** Discussion that **proceeds only after explicit user confirmation**.  
 
-**Note:** Grokteam tracks state of each **discussion stage** and **topic** as: `{planned, current, completed, skipped, done}`.  
-Branch tracking will be added in the future, including identifying conversation branches going off the main topic or discussing side tracks. A view of the discussion tree with its branches and states will be available in the Grokteam UI and stored in the Grokteam repositories.
+   **Rules:**  
+   * Everywhere the word "discussion" appears in the requirements, it **implies** `confirm-gated discussion`.  
+   * No action will be taken by Grok AI without previous consent, retrieved from the Grokteam action plans for data acquisition, execution and result presentation, or given explicitly in the previous prompt.  
+   * Emphasized for high-impact actions (tool execution, storage, text changes).
 
 ## Future Features
-- **Branch headline and discussion tree tracking** – Tree of discussions, branches, and states.
-
+- **Branch headline** – Grokteam will follow the discussion giving it a headline with branch name (a breadcrumb for internal branches, and a new branch for complete changes of subject). 
+- **Branch detection** - Grok AI will be aware of the current discussion branch and topic headline and will notice when that changes, creating a branch in the discussion, either into details or off topic in a side track. 
+- **Discussion tree tracking** - Grokteam will track  the tree of discussions, their stages, branches, topics,  and states ({planned, skipped, current, completed}). 
 ## Directives
 The goal objectives will be achieved using the following directives:
 
